@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wk4SemanticHTML</title>
+</head>
+
+<style>
+
+    div{
+        border: solid green;
+    }
+@media (min-width:600px) {
+  nav {
+    float: top;
+    width: 600px;
+    border: solid red;
+      }
+  section {
+    margin-left: 25%;
+    border: solid blue;
+  }
+}
+@media (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+
+</style>
+
+<body>
+
+<div class="container elm">
+    <span class="label"><div class="container"></span>
+
+        <nav class="elem elem-red">
+            <span class="label"><nav></span>
+             <ul>
+                <li>Home</li>
+                <li>Taco Menu</li>
+                <li>Draft List</li>
+                <li>Hours</li>
+                <li>Directions</li>
+                <li>Contact</li>
+            </ul>
+            <span class="endlabel"></nav></span>  
+        </nav>
+    <section class="elem elem-green">
+        <span class="label"><section></span>
+            <p>
+                Now when you resize your browser it's even cooler than ever!
+            </p>
+            <span class="endlabel"></section></span>
+    </section>
+    <section class="elem elem-green ipsum">
+        <span class="endlabel"><section></span>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laborum tempore quisquam sit minus dolor veritatis aut harum! Doloribus similique officia quas modi error harum nulla eius, nesciunt deleniti voluptates.
+            </p>
+        <span class="endlabel"></selection></span>
+    </section>
+</div>
+    
+</body>
+</html>
